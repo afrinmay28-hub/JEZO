@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="JEZØ — More than just clothes.">
+  <title>JEZØ — Create Your Own Style</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="announcement">FREE DIGITAL DELIVERY • NEW DROP AVAILABLE</div>
+
+  <header class="site-header">
+    <a class="logo" href="#home" aria-label="JEZØ home">JEZ<span>Ø</span></a>
+
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#shop">Shop</a>
+      <a href="#collections">Collections</a>
+      <a href="#story">Story</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn" id="searchBtn" aria-label="Search">⌕</button>
+      <button class="icon-btn cart-btn" id="cartBtn" aria-label="Cart">Bag <span id="cartCount">0</span></button>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#shop">Shop</a>
+    <a href="#collections">Collections</a>
+    <a href="#story">Story</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <main id="home">
+
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">JEZØ / DIGITAL FASHION</p>
+        <h1>MORE THAN<br><em>JUST</em> CLOTHES.</h1>
+        <p class="hero-copy">
+          Minimal design. Strong identity. Built for people who create their own style.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-light" href="#shop">Explore Drop</a>
+          <a class="text-link" href="#story">Discover JEZØ <span>↗</span></a>
+        </div>
+      </div>
+      <div class="hero-mark">J<span>Ø</span></div>
+      <div class="scroll-note">SCROLL TO EXPLORE ↓</div>
+    </section>
+
+    <section class="ticker" aria-label="JEZØ message">
+      <div>CREATE • DESIGN • EXPRESS • CREATE • DESIGN • EXPRESS • </div>
+    </section>
+
+    <section class="section" id="shop">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">01 / THE DROP</p>
+          <h2>Selected <em>Pieces</em></h2>
+        </div>
+        <a class="text-link" href="#shop">View all <span>↗</span></a>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-image product-black">
+            <span>JEZØ</span>
+            <small>01 / CORE</small>
+          </div>
+          <div class="product-info">
+            <div><h3>Core Black</h3><p>Digital T-Shirt Design</p></div>
+            <strong>$9</strong>
+          </div>
+          <button class="add-btn" data-product="Core Black">Add to bag</button>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image product-white">
+            <span>JEZØ</span>
+            <small>02 / ESSENTIAL</small>
+          </div>
+          <div class="product-info">
+            <div><h3>Essential White</h3><p>Digital T-Shirt Design</p></div>
+            <strong>$9</strong>
+          </div>
+          <button class="add-btn" data-product="Essential White">Add to bag</button>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image product-grey">
+            <span>JØ</span>
+            <small>03 / STUDIO</small>
+          </div>
+          <div class="product-info">
+            <div><h3>Studio Mono</h3><p>Digital T-Shirt Design</p></div>
+            <strong>$12</strong>
+          </div>
+          <button class="add-btn" data-product="Studio Mono">Add to bag</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="manifesto" id="collections">
+      <div class="manifesto-number">02</div>
+      <div>
+        <p class="eyebrow">THE JEZØ MINDSET</p>
+        <h2>DON'T FOLLOW<br><em>THE STYLE.</em><br>CREATE IT.</h2>
+      </div>
+      <p class="manifesto-copy">
+        JEZØ is a digital-first fashion concept focused on clean visuals,
+        creative freedom and a distinct identity.
+      </p>
+    </section>
+
+    <section class="feature" id="story">
+      <div class="feature-art">
+        <div class="feature-logo">JEZ<span>Ø</span></div>
+        <p>CREATE YOUR OWN STYLE</p>
+      </div>
+      <div class="feature-copy">
+        <p class="eyebrow">03 / OUR STORY</p>
+        <h2>Built from an <em>idea.</em></h2>
+        <p>
+          Start digital. Build an audience. Turn the identity into a real fashion
+          company over time. JEZØ is designed to grow from a simple concept into
+          a complete brand ecosystem.
+        </p>
+        <a class="btn btn-dark" href="#contact">Join the journey</a>
+      </div>
+    </section>
+
+    <section class="newsletter" id="contact">
+      <p class="eyebrow">04 / STAY IN THE LOOP</p>
+      <h2>Be first to see<br><em>what's next.</em></h2>
+      <form id="newsletterForm">
+        <input type="email" id="email" placeholder="Your email address" required>
+        <button type="submit">Join JEZØ →</button>
+      </form>
+      <p class="form-message" id="formMessage"></p>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div>
+        <a class="logo footer-logo" href="#home">JEZ<span>Ø</span></a>
+        <p>More than just clothes.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#shop">Shop</a>
+        <a href="#collections">Collections</a>
+        <a href="#story">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 JEZØ. All rights reserved.</span>
+      <span>CREATE • DESIGN • EXPRESS</span>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
